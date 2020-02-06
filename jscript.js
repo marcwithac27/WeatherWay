@@ -120,6 +120,7 @@ $(document).ready(function() {
                          
                      }
                  );
+                 var behavior = new H.mapevents.Behavior(new H.mapevents.MapEvents(map));
                  var startermarker = new H.map.Marker({ lat: starter.Latitude, lng: starter.Longitude});
                  
                  var endingmarker = new H.map.Marker({ lat: ending.Latitude, lng: ending.Longitude});
