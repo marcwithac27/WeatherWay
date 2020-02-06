@@ -1,0 +1,68 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  html { 
+    background: url(https://media.giphy.com/media/rlUh6GM9rQk7e/giphy.gif) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  padding: 10px;
+  min-height: 100vh;
+  }
+  
+  .container {
+    background-color: #212121 ;
+    border: 2px solid #212121;
+    border-radius: 75px;
+    outline: none;
+    border-color: #424242;
+    box-shadow: 0 0 50px #424242;
+    color: bisque;
+  padding: 20px;
+  width: 650px;
+    max-width: 100%;
+    align-self: auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  input {
+    color: bisque;
+  }
+  
+  #getWeatherForecast {
+    color: bisque;
+    background-color: #212121 ;
+    border: 2px solid bisque;
+    border-radius: 75px;
+  }
+  
+  #getDestination {
+    color: bisque;
+    background-color: #212121 ;
+    border: 2px solid bisque;
+    border-radius: 75px;
+  }
+  
+  
+  
+  div.divider {
+    color: #9e9e9e;
+  }
+  
+  #map {
+    width: 100%;
+    height: 100%;
+  }
